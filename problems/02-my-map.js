@@ -19,7 +19,6 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 let myMap = function(array, cb) {
     finalArray = []
     for (let i in array) {
-        // console.log(i)
         finalArray.push(cb(array[i]))
     }
     return finalArray
